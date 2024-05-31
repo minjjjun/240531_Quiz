@@ -1,5 +1,6 @@
 class Beverage:
-    menu = {"커피": 3000, "녹차": 2500, "아이스티": 3000}
+    def __init__(self):
+     self.menu = {"커피": 3000, "녹차": 2500, "아이스티": 3000}
 
     def calculate(self, drink, quantity):
         if drink in self.menu:
